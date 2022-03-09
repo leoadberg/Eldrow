@@ -24,7 +24,7 @@ Besides performance, the trickiest part was actually implementing the correct co
 
 ## Results
 
-I was the [5th person](https://www.janestreet.com/puzzles/eldrow-solution/) to submit the perfect solution (any sequence of length 16).
+I was the [5th person](https://www.janestreet.com/puzzles/eldrow-solution/) to submit the perfect solution (any sequence of length 16). You might notice I happened to submit the exact same solution as the first person, but that's expected for anyone with roughly the same algorithm because I just submitted the first one found alphabetically. There are a huge number of length 16 solutions, as many permutations of the first one are also valid.
 
 As a response to the line:
 > We are certainly happy with our 16-length Eldrow sequences, and curious if some magical 17-length sequence is lurking out there…
@@ -47,4 +47,4 @@ Or you can find the longest sequence for *every* possible answer with just:
 
 ## Code Quality
 
-The usual disclaimer: I wrote this code without ever planning on releasing it, so it's pretty rough around the edges. Not to mention even more unreadable due to the hours I spent squeezing every last drop of performance out of it.
+The usual disclaimer: I wrote this code without ever planning on releasing it, so it's pretty rough around the edges (lots of global state). Not to mention even more unreadable due to the hours I spent squeezing every last drop of performance out of it.
